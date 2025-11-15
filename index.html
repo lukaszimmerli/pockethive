@@ -104,23 +104,17 @@
 
         <div class="max-w-7xl mx-auto px-8 py-20 grid md:grid-cols-2 gap-12 items-center">
             <!-- Left Content -->
-              <img src="pockethive.png" >
+            <div class="flex justify-center">
+                <img src="pockethive.png" class="h-96">
+            </div>
           
             <!-- Right Content - Hero Image -->
             <div class="relative animate-slide-left">
               
             <div class="space-y-8 animate-slide-right">
-                <h1 class="text-5xl md:text-6xl font-semibold leading-tight">
+                <h1 class="text-5xl md:text-5xl font-semibold leading">
                     Crafting <span class="text-brand-blue">entertaining & delightful</span> mobile experiences that start in your pocket.
                 </h1>
-                <!-- <p class="text-gray-600 text-base leading-relaxed">
-                    PocketHive is a mobile-first app & game studio specializing in hand-polished experiences. We create engaging mobile games and apps that bring joy to users across iOS and Android platforms.
-                </p> -->
-                <!-- <div class="flex flex-wrap gap-4">
-                    <button class="bg-white border-2 border-brand-blue text-brand-blue px-10 py-4 rounded-xl text-base font-medium hover:bg-brand-blue hover:text-white transition-all duration-300 shadow-lg">
-                        See Our Work
-                    </button>
-                </div> -->
             </div>
 
             
@@ -128,30 +122,37 @@
         </div>
     </section>
 
-    <!-- CTA Cards Section -->
-    <section class="py-20">
+    <!-- Uncover Game Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-100 via-blue-50/30 to-gray-50 border-t border-gray-200">
         <div class="max-w-7xl mx-auto px-8">
-            <div class="grid md:grid-cols-2 gap-8">
-                <!-- Card 1 -->
-                <div class="bg-gray-100 rounded-3xl p-12 text-center hover-lift animate-scale-in">
-                    <h3 class="text-3xl font-semibold text-gray-900 mb-6 leading-tight">Ready to build something amazing?</h3>
-                    <p class="text-gray-600 leading-relaxed mb-8">
-                        Whether you have a game concept that needs refinement or an app idea that could change lives, we'd love to hear from you. Let's create something people will love to use.
-                    </p>
-                    <button class="bg-brand-blue text-white px-12 py-4 rounded-xl font-medium hover:bg-brand-blue/90 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                        Start a Project
-                    </button>
+            <!-- Section Label -->
+            <div class="text-center mb-16 animate-fade-in">
+                <span class="inline-block text-3xl font-medium text-brand-blue/80 uppercase tracking-wider">Our Apps & Games</span>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Game Icon -->
+                <div class="flex justify-center animate-scale-in">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-brand-blue/20 rounded-[40px] blur-2xl"></div>
+                        <img src="uncover.png" alt="Uncover Game Icon" class="relative z-10 w-48 h-48 rounded-[40px] shadow-xl hover:scale-105 transition-transform duration-500">
+                    </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="bg-brand-blue rounded-3xl p-12 text-center hover-lift animate-scale-in delay-200 relative overflow-hidden">
-                    <h3 class="text-3xl font-semibold text-white mb-6 leading-tight">Join the PocketHive family</h3>
-                    <p class="text-white/90 leading-relaxed mb-8">
-                        We're always looking for talented designers, developers, and game creators who share our passion for crafting delightful mobile experiences. Come build the future with us.
+                <!-- Game Info -->
+                <div class="space-y-4 animate-slide-left">
+                    <h3 class="text-3xl font-semibold text-gray-900">Uncover</h3>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        A fresh take on the classic memory game. Simple, elegant, and surprisingly addictive.
                     </p>
-                    <button class="bg-white text-brand-blue px-12 py-4 rounded-xl font-medium hover:bg-gray-50 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                        View Careers
-                    </button>
+                    <p class="text-base text-gray-600 leading-relaxed">
+                        Match pairs, challenge your memory, and uncover beautiful patterns. No timers, no pressure—just pure, focused fun designed for your pocket.
+                    </p>
+
+                    <!-- App Store Button -->
+                    <a href="#" class="inline-block transform hover:scale-105 transition-all duration-300">
+                        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1705017600" alt="Download on the App Store" class="h-12">
+                    </a>
                 </div>
             </div>
         </div>
@@ -160,8 +161,7 @@
 
     <!-- Footer -->
     <footer class="bg-white py-16 border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-8">
-
+        <div class="max-w-7xl mx-auto px-8 text-center">
                 <p class="text-gray-500 text-xs">Copyright ® 2025 PocketHive</p>
         </div>
     </footer>
